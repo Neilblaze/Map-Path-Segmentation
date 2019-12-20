@@ -35,7 +35,9 @@ The model trained for 61 epochs before earlstopper kicked in and killed the trai
 
 The model can be found in Models/road_segmentation.h5.
 
-## Scopes of improvement.
+
+
+### Scopes of improvement.
 
 There were certain maps in which the roads weren’t completely visible, look at the following example. Our model was not able to detect the road on the left. Even though no model can churn out 100% accurate results, and there is a room for improvement always.Well we can improve the performance of our model by taking certain measures, and they are as follows:
 
