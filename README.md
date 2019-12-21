@@ -28,7 +28,7 @@ The pre-processing steps involved:
 2. Cropped 256x256 images out of the images. Hence, increasing the total number of images to more than 22,000.
 3. Binarized the mask so that the pixel value is always between 0 and 1.
 ```
-## 3. About the model.
+## 3. About the model
 
 To solve this problem, I used an Unet, it is a fully convolutional network, with 3 cross-connections. Adam optimiser with a learning rate of 0.00001 was used, along with dice loss (because of the unbalanced nature of the dataset.) 
 The model trained for 61 epochs before earlstopper kicked in and killed the training process. A validation dice loss of 0.7548 was achieved.
